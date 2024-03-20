@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from 'next/navigation';
 import Bate from "./bate";
 import Link from "next/link";
-import Takebate from "./takebate";
+
 import Hero from "./Hero";
 
 export default function Home() {
@@ -15,8 +15,7 @@ export default function Home() {
   };
   return (
 <section>
-    <Hero
-    handleButtonClick={handleButtonClick}/>
-    </section>
+  <Hero/>
+</section>
   );
 }
