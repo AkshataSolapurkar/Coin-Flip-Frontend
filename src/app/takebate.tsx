@@ -1,9 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 
-const takebate = () => {
+export default function takebate() {
   return (
-    <div>
+    <div><h1>TAKEBATE</h1></div>
+  );
+}
+
+<div>
       <div className="container m-auto p-[0px] box-border">
         <header  className="px-[10px] flex mx-14 my-[30px] justify-between items-center">
             
@@ -53,7 +57,3 @@ const takebate = () => {
 </div>
 </div>
 </div>
-  )
-}
-
-export default takebate
