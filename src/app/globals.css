@@ -2,3 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.pading{
+    padding-bottom: 60px;
+}
+.left-custom{
+left: -35%;
+}
+.makebate{
+text-align: left;
+background-color: #F9FAFB;
+padding-top: 23px;
+padding-left: 20px;
+padding-bottom: 30px;
+padding-right: 20px ;
+color: #344054;
+font-size: 14px;
+font-weight: 500;
+margin-top: 23px;
+}
+.rounding-checkbox{
+border-radius: 100%;
+}
+/* Apply custom styles to make checkboxes circular */
+input[type="checkbox"].rounded-full {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+width: 20px; /* Adjust size as needed */
+height: 20px; /* Adjust size as needed */
+border-radius: 50%; /* Make it circular */
+border: 2px solid #999; /* Add border */
+outline: none; /* Remove default focus style */
+}
+
+input[type="checkbox"].rounded-full:checked {
+background-color: #344054; /* Change background color when checked */
+}
+
+.continputs{
+display: flex;
+gap: 54px;
+align-items: center;
+margin-top: 6px;
+}
+.inputgaps{
+
+display: flex;
+gap: 5px;
+align-items: center;
+margin-bottom: 15px;
+}
+.Bettinginput{
+margin-top: 8px;
+padding-left: 5px;
+border-style: solid;
+border-width: 1px;
+border-color: #D0D5DD;
+width: 100%;
+border-radius: 5px;
+}
+.btn{
+width: 100%;
+margin-top: 18px;
+
+border-radius: 5px;
+
+}
+
